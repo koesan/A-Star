@@ -12,3 +12,7 @@ A* algoritması, graf teorisi ve yol bulma problemleri için kullanılan etkili 
 A* algoritması, bu iki değeri birleştirerek toplam maliyeti (f = g + h) hesaplar ve en düşük maliyetli yolu bulmak için bu toplamı kullanır.
 
 Bu proje, A* algoritmasının çalışma prensibini görsel olarak anlamanızı sağlar.
+
+
+https://github.com/user-attachments/assets/b8624274-dfc7-42a4-901d-85c8734f3065
+
