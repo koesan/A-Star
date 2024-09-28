@@ -13,20 +13,25 @@ A* algoritması, graf teorisi ve yol bulma problemleri için kullanılan etkili 
 
 A* algoritması, bu iki değeri birleştirerek toplam maliyeti (f = g + h) hesaplar ve en düşük maliyetli yolu bulmak için bu toplamı kullanır.
 
-***
+---
 
-## Dijkstra algoritması, bir grafikteki bir başlangıç düğümünden diğer düğümlere olan en kısa yolları bulmak için kullanılan etkili bir yol bulma algoritmasıdır.
+## Dijkstra Algoritması
 
-Temel Adımlar:
-Başlangıç Düğümünü Seçme: Başlangıç düğümünün mesafesi 0, diğer tüm düğümlerin mesafesi "sonsuz" olarak ayarlanır.
+Dijkstra algoritması, bir grafikteki bir başlangıç düğümünden diğer düğümlere olan en kısa yolları bulmak için kullanılan etkili bir yol bulma algoritmasıdır.
 
-Mesafeleri Güncelleme: İşlem sırasındaki düğümlerden en düşük mesafeye sahip olan düğüm seçilir ve bu düğümden komşularına olan mesafeleri güncellenir.
+### Temel Adımlar:
 
-Düğümleri İşleme: Seçilen düğüm işlenir ve daha önce hesaplanan mesafeler üzerinden komşulara geçiş yapılarak mesafeler güncellenir.
+1. **Başlangıç Düğümünü Seçme**: Başlangıç düğümünün mesafesi 0, diğer tüm düğümlerin mesafesi "sonsuz" olarak ayarlanır.
 
-Tekrar Etme: Tüm düğümler işlenene kadar bu adımlar tekrarlanır.
+2. **Mesafeleri Güncelleme**: İşlem sırasındaki düğümlerden en düşük mesafeye sahip olan düğüm seçilir ve bu düğümden komşularına olan mesafeleri güncellenir.
 
-Sonuç: Başlangıç düğümünden diğer düğümlere olan en kısa yollar ve mesafeler elde edilir.
+3. **Düğümleri İşleme**: Seçilen düğüm işlenir ve daha önce hesaplanan mesafeler üzerinden komşulara geçiş yapılarak mesafeler güncellenir.
+
+4. **Tekrar Etme**: Tüm düğümler işlenene kadar bu adımlar tekrarlanır.
+
+### Sonuç:
+
+Başlangıç düğümünden diğer düğümlere olan en kısa yollar ve mesafeler elde edilir.
 
 
 https://github.com/user-attachments/assets/b8624274-dfc7-42a4-901d-85c8734f3065
