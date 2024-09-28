@@ -1,6 +1,6 @@
 # Path Finding
 
-Bu proje, belirlenen konumlar üzerinde en kısa yolu bulan algoritmaların Python kodlarını yazıp projeme eklemekteyim. Kullanıcılar, bu kodlar aracılığıyla farklı yol bulma algoritmalarını öğrenebilir ve uygulayabilirler. Proje, Dijkstra algoritması, A* algoritması ve diğer popüler algoritmaların Python ile nasıl gerçekleştirileceğini göstermektedir.
+***Bu projede, en kısa yolu bulan algoritmaların Python kodlarını yazıp projeye ekliyorum.***
 
 ***
 
