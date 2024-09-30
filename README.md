@@ -29,6 +29,26 @@ Dijkstra algoritması, bir grafikteki bir başlangıç düğümünden diğer dü
 
 4. **Tekrar Etme**: Tüm düğümler işlenene kadar bu adımlar tekrarlanır.
 
+---
+
+## Bellman-Ford Algoritması
+
+Bellman-Ford algoritması, negatif ağırlıklı kenarların bulunduğu graflerde en kısa yolları bulmak için kullanılan bir algoritmadır. Dijkstra algoritmasından farklı olarak, negatif ağırlıklı kenarların varlığı durumunda da doğru çözümler sağlar. Ancak Bellman-Ford, Dijkstra'dan daha yavaş çalışır.
+
+### Temel Adımlar:
+
+1. **Başlangıç Düğümünü Ayarlama**: Başlangıç düğümünün mesafesi 0, diğer tüm düğümlerin mesafesi "sonsuz" olarak başlatılır.
+
+2. **Kenarları Geçiş ve Güncelleme**: Her bir kenar üzerinden geçilerek, düğümler arasındaki mesafeler güncellenir. Bu adım, toplam düğüm sayısının bir eksik sayısı kadar (V-1) tekrarlanır, çünkü en kısa yol en fazla V-1 kenar kullanarak bulunabilir.
+
+3. **Negatif Çevrim Kontrolü**: Eğer V-1 iterasyon sonrasında bile mesafeler değişiyorsa, grafikte negatif ağırlıklı bir çevrim olduğu anlaşılır.
+
+4. **Sonuç**: Eğer negatif çevrim yoksa, algoritma en kısa yolları bulmuş olur.
+
+Bellman-Ford, negatif çevrimleri tespit edebildiği için Dijkstra'nın çözümleyemediği bazı grafik yapıları için kullanışlıdır.
+
+---
+
 ### Sonuç:
 
 Başlangıç düğümünden diğer düğümlere olan en kısa yollar ve mesafeler elde edilir.
