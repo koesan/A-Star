@@ -2,6 +2,7 @@ import pygame as pg
 from heapq import *
 from A_Star import a_star
 from Dijkstra import dijkstra
+from Bellman_Ford import bellman_ford
 
 # Konumun merkezine yerleştirilen çemberin pozisyonunu döndürüyor
 def get_circle(x, y):
@@ -69,7 +70,8 @@ while True:
     mouse_pos = get_click_mouse_pos() 
     if mouse_pos:
         #visited = a_star(graph, start, mouse_pos)  # A* algoritmasını çalıştır ve yolu bul
-        visited = dijkstra(graph, start, mouse_pos)  # dijkstra algoritmasını çalıştır ve yolu bul
+        #visited = dijkstra(graph, start, mouse_pos)  # dijkstra algoritmasını çalıştır ve yolu bul
+        visited = bellman_ford(graph, start, mouse_pos)  # bellman_ford algoritmasını çalıştır ve yolu bul
 
 
         goal = mouse_pos  # Hedefi fare ile tıklanan pozisyona ayarla
