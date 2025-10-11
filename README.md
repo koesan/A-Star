@@ -14,7 +14,7 @@ https://github.com/user-attachments/assets/b8624274-dfc7-42a4-901d-85c8734f3065
 
 ## 🚀 Live Demo
 
-[![Open in Spaces](https://img.shields.io/badge/🤗%20Hugging%20Face-Open%20in%20Spaces-yellow?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/spaces/koesan/mangaspaces)
+[![Open in Spaces](https://img.shields.io/badge/🤗%20Hugging%20Face-Open%20in%20Spaces-yellow?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/spaces/koesan/pathfinding-algorithms)
 
 **Try the interactive web version!** Click the button above to explore pathfinding algorithms in your browser - no installation required.
 
