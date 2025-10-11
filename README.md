@@ -8,8 +8,6 @@
 [](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
 [](https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm)
 
-### Interactive Pathfinding Visualization
-
 Visual comparison of A*, Dijkstra, and Bellman-Ford algorithms with Pygame
 
 ---
