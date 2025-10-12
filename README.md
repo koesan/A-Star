@@ -2,13 +2,13 @@
 
 # Path Finding Algorithms
 
-[](https://www.python.org/)
-[](https://www.pygame.org/)
-[](https://en.wikipedia.org/wiki/A*_search_algorithm)
-[](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
-[](https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm)
-
 Visual comparison of A*, Dijkstra, and Bellman-Ford algorithms with Pygame
+
+[![Python](https://img.shields.io/badge/Python-3.7+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![Pygame](https://img.shields.io/badge/Pygame-2.0+-green?style=flat&logo=python&logoColor=white)](https://www.pygame.org/)
+[![A*](https://img.shields.io/badge/Algorithm-A*-blue?style=flat)](https://en.wikipedia.org/wiki/A*_search_algorithm)
+[![Dijkstra](https://img.shields.io/badge/Algorithm-Dijkstra-orange?style=flat)](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
+[![Bellman-Ford](https://img.shields.io/badge/Algorithm-Bellman--Ford-red?style=flat)](https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm)
 
 https://github.com/user-attachments/assets/b8624274-dfc7-42a4-901d-85c8734f3065
 
